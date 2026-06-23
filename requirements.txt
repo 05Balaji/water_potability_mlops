@@ -22,4 +22,5 @@ fastapi
 uvicorn
 jinja2
 python-multipart
--e .
+-e . # install your own  project in editable mode, so that you can import your own project modules from anywhere in the project directory without any import error
+# -e editable mode
